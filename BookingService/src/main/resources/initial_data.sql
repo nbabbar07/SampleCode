@@ -1,0 +1,2 @@
+INSERT INTO transactions (transaction_id,amount,currency,type) VALUES (1,100,'INR','expenses'),(2,200,'USD','restaurant');
+INSERT INTO transactions (transaction_id,amount,currency,type,parent_transaction_id) VALUES (3,300,'INR','expenses',1),(4,600,'INR','shopping',1),(5,50,'USD','restaurant',2),(6,20,'USD','travelling',2);
